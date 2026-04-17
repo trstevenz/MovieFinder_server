@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 async function testDeepLink() {
-    const url = 'https://moviesda17.com//inji-iduppazhagi-2015-tamil-movie/';
+    const url = 'https://moviesda18.com';
     console.log("Fetching: " + url);
     try {
         const { data: page1Data } = await axios.get(url, { timeout: 10000 });
